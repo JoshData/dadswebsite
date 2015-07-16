@@ -1,22 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
+body {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+h1 {
+	margin-top: 42px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+}
 
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin: 1.5em 0 1em 0;
+}
+	h2:first-child {
+		margin-top: 0;
+	}
 
+p.deck {
+	margin-top: .66em;
+	margin-bottom: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+}
 
+#plansimg {
+	margin: 42px 0;
+	border: 1px solid #77A;
+	width: 100%;
+}
 
+p.contact {
+	font-size: 120%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.picture {
+	border: 1px solid #777;
+}
